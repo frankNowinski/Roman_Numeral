@@ -24,7 +24,7 @@ def valid(array)
 	}
 
 	if count != len
-		puts"Invalid roman numeral"
+		puts"Invalid Roman Numeral"
 		exit
 	end 
 	sum	
@@ -42,7 +42,4 @@ while count < len
 	count += 1
 end
 
-puts "Roman numeral #{numeral} converted into an integer is #{valid(array)}"
-
-
-
+puts "Roman Numeral #{numeral} converted into an integer is #{valid(array)}"
