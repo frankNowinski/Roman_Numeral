@@ -15,14 +15,14 @@ def valid(array)
   count = 0
   len = array.length
 
-  array.each { |input|
-    roman_numeral.each { |key, value|
+  array.each do |input|
+    roman_numeral.each do |key, value|
       if input.chr == key 
         sum += value
 	count += 1
       end
-    }
-  }
+    end
+  end
 
   if count != len
     puts"Invalid Roman Numeral"
